@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin-left: 20px;
+
+}
+form{
+    width: 500px;
+}
+label{
+    margin-bottom: 5px;
+}
+input, select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+button:hover{
+    width: 225px;
+    background: #0056b3;
+}
+button{
+    background: rebeccapurple;
+    width: 125px;
+    border: 5px;
+}
+.container {
+    display: flex;         /* Вирівнює блоки в ряд */
+    gap: 10px;             /* Відстань між блоками */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+img {
+    width: 80px;
+    border: 2px solid #26a7bd;        /* рамка */
+    border-radius: 10px;            /* закруглення кутів */
+    box-shadow: 5px 5px 10px rgb(24, 219, 66);  /* тінь */
+}
+.container1 {
+    display: flex;         /* Вирівнює блоки в ряд */
+    gap: 20px;             /* Відстань між блоками */
+}
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(158, 201, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
