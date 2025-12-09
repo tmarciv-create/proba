@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin-left: 20px;
+
+}
+form{
+    width: 500px;
+}
+label{
+    margin-bottom: 5px;
+}
+input, select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+button:hover{
+    width: 225px;
+    background: #0056b3;
+}
+button{
+    background: rebeccapurple;
+    width: 125px;
+    border: 5px;
+}
